@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.umsa.savepdf"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "savePDF",
+    "packageName": "com.umsa.savepdf",
+    "packageFolder": "com/umsa/savepdf",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OWYyMTM5OGFkMDFhZmRlZTE5MDQ2NjJmYjNmZDBkNDZmMzBiNjEzNWM5MDk2OWY0NDAzYTdjYzI2YTY2ZTNkYzYyN2ZiNWZmODEzNzlkNmQzOTk2YzAwMjUxMDUwNDZiZmU3Y2M4ODYyYjk0ODY3YjVlYzMzMTZkNDc2MjhjYzI=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true
+  }
+}
