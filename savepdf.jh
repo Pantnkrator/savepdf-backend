@@ -1,0 +1,32 @@
+enum FormType {
+    STUDENT, TEACHER, PROFESSIONAL
+}
+
+entity Form {
+    name String,
+    type FormType,
+    typeId Integer,
+    createdBy String,
+    createdDate Instant,
+    lastModifiedBy String,
+    lastModifiedDate Instant
+}
+entity File {
+    name String,
+    url String,
+    createdBy String,
+    createdDate Instant,
+    lastModifiedBy String,
+    lastModifiedDate Instant
+}
+
+/**
+ * One to one relationship.
+ */
+relationship OneToOne {
+    Form {file} to File
+}
+
+dto all with mapstruct
+service all with serviceClass
+paginate all with infinite-scroll
